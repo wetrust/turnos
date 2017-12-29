@@ -6,14 +6,18 @@ $feedback_negative = Session::get('feedback_negative');
 
 // echo out positive messages
 if (isset($feedback_positive)) {
+    echo '<div class="alert alert-success" role="alert">';
     foreach ($feedback_positive as $feedback) {
-        echo '<div class="feedback success">'.$feedback.'</div>';
+        echo $feedback.'<br>';
     }
+    echo '</div>';
 }
 
 // echo out negative messages
 if (isset($feedback_negative)) {
+    echo '<div class="alert alert-danger" role="alert">';
     foreach ($feedback_negative as $feedback) {
-        echo '<div class="feedback error">'.$feedback.'</div>';
+        echo $feedback.'</br>';
     }
+    echo '</div>';
 }
