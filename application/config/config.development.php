@@ -99,6 +99,7 @@ return array(
     'COOKIE_DOMAIN' => "",
     'COOKIE_SECURE' => false,
     'COOKIE_HTTP' => true,
+    'COOKIE_NAME' => "PHPSESSID",
     'SESSION_RUNTIME' => 604800,
     /**
      * Configuration for: Avatars/Gravatar support
