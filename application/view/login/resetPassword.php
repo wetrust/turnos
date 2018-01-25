@@ -1,8 +1,8 @@
 <div class="container">
-    <?php $this->renderFeedbackMessages(); ?>
     <div class="d-flex p-2 justify-content-center">
         <div class="card">
             <div class="card-body">
+            <?php $this->renderFeedbackMessages(); ?>
                 <h5 class="card-title">Set new password</h5>
                 <form action="<?php echo Config::get('URL'); ?>login/setNewPassword" method="post">
                     <input type='hidden' name='user_name' value='<?php echo $this->user_name; ?>' />

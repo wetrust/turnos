@@ -1,9 +1,10 @@
 <div class="container">
-    <?php $this->renderFeedbackMessages(); ?>
+    
     <div class="d-flex p-2 justify-content-center">
         <div class="card">
             <div class="card-body">
                 <h5 class="card-title">Request a password reset</h5>
+                <?php $this->renderFeedbackMessages(); ?>
                 <form action="<?php echo Config::get('URL'); ?>login/requestPasswordReset_action" method="post">
                     <div class="form-group">
                         <label>Username or email</label>

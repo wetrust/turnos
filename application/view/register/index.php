@@ -1,9 +1,9 @@
 <div class="container">
-    <?php $this->renderFeedbackMessages(); ?>
     <div class="d-flex p-2 justify-content-center">
         <div class="card">
             <div class="card-body">
                 <h5 class="card-title">Register a new account</h5>
+                <?php $this->renderFeedbackMessages(); ?>
                 <form action="<?php echo Config::get('URL'); ?>register/register_action" method="post">
                     <div class="form-group">
                         <label>Username (letters/numbers, 2-64 chars)</label>

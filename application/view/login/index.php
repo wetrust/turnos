@@ -1,11 +1,9 @@
 <div class="container">
-    <!-- echo out the system feedback (error and success messages) -->
-    <?php $this->renderFeedbackMessages(); ?>
-
     <div class="d-flex p-2 justify-content-center">
         <div class="card">
             <div class="card-body">
                 <h5 class="card-title">Login here</h5>
+                <?php $this->renderFeedbackMessages(); ?>
                 <form action="<?php echo Config::get('URL'); ?>login/login" method="post">
                     <div class="form-group">
                         <label>Username or email</label>
