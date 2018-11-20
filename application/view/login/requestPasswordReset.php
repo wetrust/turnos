@@ -1,5 +1,4 @@
 <div class="container">
-    
     <div class="d-flex p-2 justify-content-center">
         <div class="card">
             <div class="card-body">
