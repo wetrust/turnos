@@ -62,10 +62,10 @@ return array(
      * DB_CHARSET The charset, necessary for security reasons. Check Database.php class for more info.
      */
     'DB_TYPE' => 'mysql',
-    'DB_HOST' => '127.0.0.1',
-    'DB_NAME' => 'ceosim_v2',
+    'DB_HOST' => 'db',
+    'DB_NAME' => 'huge',
     'DB_USER' => 'root',
-    'DB_PASS' => '',
+    'DB_PASS' => 'test',
     'DB_PORT' => '3306',
     'DB_CHARSET' => 'utf8',
     /**
